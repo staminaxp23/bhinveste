@@ -7,6 +7,12 @@ p{
     font-size: 16px;
     line-height: 32px;
 }
+
+h{
+    text-align: center;
+    line-height: 38;
+}
+
 .content{
     display: flex;
     flex-direction: column;
@@ -22,11 +28,11 @@ p{
 }
 
 .navbar-stamina{
-    background-color: #64429A;
+    background-color: #B2B034;
     color: #ffffff;
 }
 
-.nav-item>a{
+.navbar-stamina>a{
     color: #ffffff;
 }
 
@@ -63,26 +69,58 @@ p{
 }
 
 .btn-comprar{
+    margin-top:2vw;
+    margin-bottom: 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .btn-comprar>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 70vw;
     background: #64429A;
     border: 0;
     border-radius: 0;
+    font-size: 20px;
+}
+
+.btn-comprar>button:hover{
+    background-color: #362364;
 }
 
 #palestrante{
     display: flex;    
-    justify-content: flex-start;
-    align-items: center;    
+    justify-content: center;
+    align-items: center;  
+    padding: 2vw 3vw 1vw 2vw;
     font-size: 40 px;
-    height: 100px;
-    background: #B2B034;
-    height: 500px;
+}
+
+#palestrante>h1{
+    font-size: 30px;
+}
+
+.palestrante-item{
+    display: flex;   
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.palestrante-img{
+    border-radius: 180vw;
+}
+
+#social{
+    display: flex;    
+    justify-content: center;
+    align-items: center;  
+    padding: 2vw 0vw 1vw 2vw;
+    font-size: 40 px;
 }
 
 #footer{
@@ -93,4 +131,10 @@ p{
     font-size: 20px;
     background-color:  #64429A ;
     color: #ffffff;    
+}
+
+.footer-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
