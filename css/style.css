@@ -8,11 +8,6 @@ p{
     line-height: 32px;
 }
 
-h{
-    text-align: center;
-    line-height: 38;
-}
-
 .content{
     display: flex;
     flex-direction: column;
@@ -27,12 +22,15 @@ h{
     width: 100%;
 }
 
-.navbar-stamina{
-    background-color: #B2B034;
-    color: #ffffff;
+#logo{
+    width: 180px;;    
+    max-height: 70px;
+    margin: 0;
+    padding: 0;
 }
 
-.navbar-stamina>a{
+.navbar-stamina{
+    background-color: #B2B034;
     color: #ffffff;
 }
 
