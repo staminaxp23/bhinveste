@@ -1,0 +1,96 @@
+body{
+    overflow-x: hidden;
+}
+
+p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 32px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-stamina{
+    background-color: #64429A;
+    color: #ffffff;
+}
+
+.nav-item>a{
+    color: #ffffff;
+}
+
+#banner{
+    display: flex;    
+    justify-content: center;
+    padding: 2vw 3vw 1vw 2vw;
+}
+
+#box-evento{
+    display: flex;    
+    justify-content: flex-start;
+    padding: 3vw 3vw 3vw 3vw;
+    align-items: center;    
+    font-size: 40 px;
+}
+
+.card-evento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #64429A;
+    font-size: 40px;
+    font-weight: bold; 
+    height: 100px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.txt-evento{
+    display: flex;    
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn-comprar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-comprar>button{
+    width: 70vw;
+    background: #64429A;
+    border: 0;
+    border-radius: 0;
+}
+
+#palestrante{
+    display: flex;    
+    justify-content: flex-start;
+    align-items: center;    
+    font-size: 40 px;
+    height: 100px;
+    background: #B2B034;
+    height: 500px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    font-size: 20px;
+    background-color:  #64429A ;
+    color: #ffffff;    
+}
