@@ -1,14 +1,19 @@
-body{
+body {
     overflow-x: hidden;
 }
 
-p{
+p {
     text-align: justify;
     font-size: 16px;
     line-height: 32px;
 }
 
-.content{
+h {
+    text-align: center;
+    line-height: 38;
+}
+
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,64 +22,77 @@ p{
     margin: 0;
 }
 
-#header{
+#header {
     padding: 0;
     width: 100%;
 }
 
-#logo{
-    width: 180px;;    
+.navbar-stamina {
+    background-color: #f4f4f4;
+    color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.navbar-stamina>a {
+    width: 180px;
     max-height: 70px;
     margin: 0;
     padding: 0;
 }
 
-.navbar-stamina{
-    background-color: #B2B034;
-    color: #ffffff;
+div#banner.row {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("/img/pork.png");
+    background-size: 100% 100%;
+    width: 80vw;
+    height: 40vw;
+    background-color: rgba(88, 49, 136, 1);
 }
 
-#banner{
-    display: flex;    
+div#box-evento.row {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding: 2vw 3vw 1vw 2vw;
-}
-
-#box-evento{
-    display: flex;    
-    justify-content: flex-start;
+    background-color: rgba(88, 49, 136, 1);
     padding: 3vw 3vw 3vw 3vw;
-    align-items: center;    
-    font-size: 40 px;
+    width: 80vw;
+    margin: 0 auto;
 }
 
-.card-evento{
+.card-evento {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #64429A;
     font-size: 40px;
-    font-weight: bold; 
+    font-weight: bold;
     height: 100px;
     line-height: 30px;
     color: #ffffff;
+    border-style: solid;
 }
 
-.txt-evento{
-    display: flex;    
-    justify-content: flex-start;
+.txt-evento {
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
-.btn-comprar{
-    margin-top:2vw;
+.btn-comprar {
+    margin-top: 2vw;
     margin-bottom: 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
-.btn-comprar>button{
+.btn-comprar>button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,53 +103,54 @@ p{
     font-size: 20px;
 }
 
-.btn-comprar>button:hover{
+.btn-comprar>button:hover {
     background-color: #362364;
 }
 
-#palestrante{
-    display: flex;    
+#palestrante {
+    display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
     padding: 2vw 3vw 1vw 2vw;
     font-size: 40 px;
 }
 
-#palestrante>h1{
+#palestrante>h1 {
     font-size: 30px;
 }
 
-.palestrante-item{
-    display: flex;   
-    flex-direction: column; 
+.palestrante-item {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
 }
 
-.palestrante-img{
+.palestrante-img {
     border-radius: 180vw;
 }
 
-#social{
-    display: flex;    
+#social {
+    display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
     padding: 2vw 0vw 1vw 2vw;
     font-size: 40 px;
 }
 
-#footer{
+#footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70px;
+    min-height: 50px;
     font-size: 20px;
-    background-color:  #64429A ;
-    color: #ffffff;    
+    background-color: #64429A;
+    color: #ffffff;
+    width: 100vw;
 }
 
-.footer-item{
+.footer-item {
     display: flex;
     justify-content: center;
     align-items: center;
