@@ -1,31 +1,28 @@
 @charset "UTF=8";
-h1,
-h2,
-h3,
-h4,
-h5 {
-    color: #6D6822;
+
+h1,h2,h3,h4,h5{    
+    color: #B2B034;
     text-align: center;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Montserrat',sans-serif;
     overflow-x: hidden;
 }
 
-hr {
+hr{
     color: #362364;
     border-style: solid;
     border-width: 2px;
     margin: 0;
 }
 
-a {
+a{
     color: #FFFFFF;
     text-decoration: none;
-}
+} 
 
-a:hover {
+a:hover{
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -34,26 +31,23 @@ p {
     text-align: justify;
     font-size: 16px;
     line-height: 26px;
-    color: #6B6868;
+    color:#6B6868;
     font-family: 'Montserrat-Regular', sans-serif;
 }
 
-button {
+button{
     background: #64429A;
     font-size: 20px;
     border-radius: 180vw;
 }
 
-.img-fluid {
-    padding: 0;
-}
 
 .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100vw;
-    margin: 0;
+    margin:0;
     padding: 0;
 }
 
@@ -61,40 +55,52 @@ button {
     width: 100%;
 }
 
-.navbar-stamina {
+.navbar-menu {
     background-color: #f4f4f4;
     color: #ffffff;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 
-.navbar-stamina>a {
+.navbar-menu>a {
     width: 180px;
     max-height: 70px;
 }
 
-#banner {
+#banner{
     display: flex;
     justify-content: center;
-    align-items: center;
-    align-content: center;
-    /*background-image: url("../img/pork.png");
-    background-size: 100% 100%;*/
-    /*width: 80vw;
-    height: 40vw;*/
-}
-
-#banner-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #583188;
-    width: 100vw;
+    align-content: center;    
     height: auto;
-    padding: 0;
-    margin: 0;
-    border: 0;
 }
 
+#box-banner{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:#583188 ;
+}
+
+#banner-img{
+    display: flex;
+    justify-items: center;    
+    align-items: center;    
+    background-color:#583188 ;
+    width: 100%;
+    margin: 0;
+    padding: 0;    
+    height: auto;
+}
+
+#banner-texto{    
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    text-align: justify;
+    align-content: center;
+    position:absolute;
+    width: 100vw;
+    height: 18vh;
+}
 
 /*
 div#banner.row {    
@@ -115,41 +121,59 @@ div#banner.row {
     display: flex;
     justify-content: center;
     align-content: center;
+    color: #FFFFFF;
 }
 
-.esquerdo {
+.evento-texto>h2{
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 45px;
+    letter-spacing: 5px;
+}
+
+.evento-texto>hr{    
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0;
+}
+
+#evento-info{ 
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-color: #583188;
+    align-items: flex-start;
+    background-color:#583188 ;
+    padding-top: 50px; 
+    color: #FFFFFF;
 }
 
-.direito {
-    background-color: #583188;
-}
-
-.card-evento {
+.card-evento{
     display: flex;
     justify-content: center;
     align-items: center;
     border-style: solid;
-    color: #ffffff;
+    border-width: bold;
+    padding: 0;
+    border-color: #FFFFFF;
 }
 
-.card-evento>h1 {
-    color: #ffffff;
+.card-evento>h1{
+    font-family:'Montserrat-Bold',sans-serif;
+    color:#FFFFFF;
 }
 
-.card-evento>h4 {
-    color: #ffffff;
+.card-evento>h5{
+    font-family:'Montserrat-Bold',sans-serif;
+    color:#FFFFFF;
 }
 
-.txt-evento {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.evento-item{
+    padding-top: 20px;
 }
+
 
 .btn-comprar {
     display: flex;
@@ -258,4 +282,24 @@ div#banner.row {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.img-fluid{
+    padding: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    p{
+        font-size: 12px;        
+        line-height: 20px;
+    }
+
+    h2{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    button{
+        font-size: 12px;
+    }
 }

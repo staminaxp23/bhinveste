@@ -9,14 +9,16 @@
     <meta name="author" content="$tamina">
 
     <title>BH Investe</title>
+    <link rel="icon" type="imagem/png" href="img/icon.png" />
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Google Tag Manager -->
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -43,8 +45,9 @@
     <!-- End Google Tag Manager (noscript) -->
     <div class="container-fluid content">
         <header id="header">
-            <nav class="navbar navbar-expand-lg navbar-light navbar-stamina">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-menu">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -66,37 +69,54 @@
                 </div>
             </nav>
         </header>
-        <!--Iamgem Banner Principal-->
-        <!--  <div class="row">
-            <h1>O MAIOR EVENTO DA SEMANA</h1>
-            <p>Saiba como investir para garantir uma aposentadoria tranquila , conheça mais sobre os
-                investimentos
-                de riscos e a situação do mercado financeiro com quem entende do assunto.
-            </p>
-        </div>-->
+        <!--Imagem Banner Principal-->
         <div class="row" id="banner">
-            <div class="col-10 col-lg-10 " id="banner-img">
-                <img src="img/pork.png" class="img-fluid">
+            <div class="col-10 ">
+                <div class="row" class="box-banner">
+                    <div class="col-12" id=banner-img>
+                        <img src="img/pork.png" class="img-fluid">
+                        <div class="col-12 col-md-5" id="banner-texto">
+                            <h2>O MAIOR EVENTO DA <br> SEMANA</h2>
+                            <p> Conheça mais sobre os investimentos de riscos e a situação do mercado financeiro com
+                                quem entende do assunto.
+                            </p>
+                            <div class="btn-comprar">
+                                <button class="btn"><a href="#box-evento">Comprar Ingresso</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <!--Sobre o eventoo-->
+
         <div class="row" id="box-evento">
-            <div class="col-10 col-lg-7  esquerdo">
-                <div class="col-10 col-lg-3 card-evento">
-                    <h1>11/07</h1>
-                </div>
-                <div class="col-10 col-lg-3 card-evento">
-                    <h4>Quinta-Feira</h4>
-                </div>
-                <div class="col-10 col-lg-7">
-                    <h2>Espaço<br> Semear</h2>
-                </div>
-            </div>
-            <div class="col-10 col-lg-3 direito ">
-                <div class="sympla">
-                    <div id="sympla-widget-578188" height="auto"></div>
-                    <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/578188"></script>
+            <div class="col-10 ">
+                <div class="row" id="evento-info">
+                    <div class="col-12 col-lg-2 evento-item">
+                        <div class="col-6 col-lg-12 card-evento">
+                            <h1>11/07</h1>
+                        </div>
+                        <div class="col-6 col-lg-12 card-evento">
+                            <h5>Quinta-Feira</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 evento-item">
+                        <div class="col-12 evento-texto">
+                            <h2>ESPAÇO<br> SEMEAR INNOVATION</h2><br>
+                            Endereço: Rua Paraíba, 330, Funcionários
+                            Belo Horizonte, MG<br>
+                            Horário: 19:30h
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 evento-item">
+                        <div class="col-12 evento-texto">
+                            <h2>COMPRAR INGRESSO</h2>
+                            <hr>
+                            <div id="sympla-widget-578188" height="auto"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -104,7 +124,8 @@
             <div class="box-palestrante col-10">
                 <div class="col-12 col-md-12 palestrante-titulo">
                     <h1 class="titulo">Palestrantes</h1>
-                    <h4>Saiba como investir para garantir uma aposentadoria tranquila, conheça mais sobre os investimentos de riscos e a situação do mercado financeiro com quem entende do assunto.
+                    <h4>Saiba como investir para garantir uma aposentadoria tranquila, conheça mais sobre os
+                        investimentos de riscos e a situação do mercado financeiro com quem entende do assunto.
                     </h4>
                 </div>
                 <div class="row grid-palestrante">
@@ -113,7 +134,9 @@
                         <h5>Paulo Pacheco
                             <hr>
                         </h5>
-                        <p>Doutor em Economia pela Universidade Hohenheim na Alemanha. É professor há 14 anos pelo IBMEC e colunista econômico pela CBN. Pacheco é também o co-founder da U.Coffee, uma startup que utiliza inteligência artificial para criar
+                        <p>Doutor em Economia pela Universidade Hohenheim na Alemanha. É professor há 14 anos pelo IBMEC
+                            e colunista econômico pela CBN. Pacheco é também o co-founder da U.Coffee, uma startup que
+                            utiliza inteligência artificial para criar
                             cafés de acordo com o paladar de seus clientes.
                         </p>
                     </div>
@@ -122,7 +145,9 @@
                         <h5>Isadora Lara
                             <hr>
                         </h5>
-                        <p>Consultora de Investimentos e founder do Mulher Investe. Isadora é investidora, ministra aulas de investimentos e consultorias financeiras. Engenheira pela UFMG, atua no setor comercial da Localiza.
+                        <p>Consultora de Investimentos e founder do Mulher Investe. Isadora é investidora, ministra
+                            aulas de investimentos e consultorias financeiras. Engenheira pela UFMG, atua no setor
+                            comercial da Localiza.
                             <br>
                         </p><br><br>
                     </div>
@@ -131,15 +156,17 @@
                         <h5>Felipe Guimarães
                             <hr>
                         </h5>
-                        <p>Sócio fundador da Império Investimentos, escritório credenciado a XP Investimentos, possui experiência em projetos de finanças corporativas pela Accenture, além de gestor de novos produtos mobile na Movile e fundador de startup
+                        <p>Sócio fundador da Império Investimentos, escritório credenciado a XP Investimentos, possui
+                            experiência em projetos de finanças corporativas pela Accenture, além de gestor de novos
+                            produtos mobile na Movile e fundador de startup
                             de conteúdo mobile.
                         </p><br>
                     </div>
                 </div>
                 <div class="col-12 col-lg-12 col-sm-12 btn-comprar">
                     <button class="btn">
-                        <a href="https://www.sympla.com.br/bh-investe-um-panorama-do-mercado-financeiro__578188">Quero
-                            Participar</a>
+                        <a href="https://www.sympla.com.br/bh-investe-um-panorama-do-mercado-financeiro__578188" target="_blank">
+                            Quero Participar</a>
                     </button>
                 </div>
             </div>
@@ -149,11 +176,15 @@
                 <h1 class="titulo">SIGA O BH INVESTE NAS REDES</h1>
             </div>
             <div class="col-12 col-md-4" id="redes">
-                <a href="https://www.linkedin.com/company/bh-investe/" target="_blank"><img src="img/in.svg" class="img-fluid"></a>
-                <a href="https://www.facebook.com/BH-Investe-3078278295523165/" target="_blank"><img id="face-img" src="img/facebook.svg" class="img-fluid"></a>
+                <a href="https://www.linkedin.com/company/bh-investe/" target="_blank"><img src="img/in.svg"
+                        class="img-fluid"></a>
+                <a href="https://www.facebook.com/BH-Investe-3078278295523165/" target="_blank"><img id="face-img"
+                        src="img/facebook.svg" class="img-fluid"></a>
             </div>
             <div class="col-12 col-md-4">
-                <iframe src="//lightwidget.com/widgets/dc3cc26ddafd55a99bd90134cd7b52c3.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+                <iframe src="//lightwidget.com/widgets/dc3cc26ddafd55a99bd90134cd7b52c3.html" scrolling="no"
+                    allowtransparency="true" class="lightwidget-widget"
+                    style="width:100%;border:0;overflow:hidden;"></iframe>
             </div>
 
         </div>
@@ -161,10 +192,19 @@
     <footer id="footer">
         <img src="img/bh-investe-logobranco.png">
     </footer>
+
+    <!--Scripts-->
+    <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/578188"></script>
     <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
