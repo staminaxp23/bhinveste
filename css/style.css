@@ -8,6 +8,7 @@ p {
     line-height: 32px;
 }
 
+<<<<<<< HEAD
 h {
     text-align: center;
     line-height: 38;
@@ -19,6 +20,9 @@ h {
 }
 
 .content {
+=======
+.content{
+>>>>>>> 388273454cc38a584fd824dafe2b2c9403209720
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,6 +36,7 @@ h {
     width: 100%;
 }
 
+<<<<<<< HEAD
 .navbar-stamina {
     background-color: #f4f4f4;
     color: #ffffff;
@@ -39,6 +44,17 @@ h {
 }
 
 .navbar-stamina>a {
+=======
+#logo{
+    width: 180px;;    
+    max-height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-stamina{
+    background-color: #B2B034;
+>>>>>>> 388273454cc38a584fd824dafe2b2c9403209720
     color: #ffffff;
 }
 
