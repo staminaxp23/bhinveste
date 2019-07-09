@@ -1,29 +1,31 @@
 @charset "UTF=8";
-
-h1,h2,h3,h4,h5{
-    
-    color: #B2B034;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #6D6822;
     text-align: center;
 }
 
 body {
-    font-family:'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
 
-hr{
+hr {
     color: #362364;
     border-style: solid;
     border-width: 2px;
     margin: 0;
 }
 
-a{
+a {
     color: #FFFFFF;
     text-decoration: none;
-} 
+}
 
-a:hover{
+a:hover {
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -32,17 +34,17 @@ p {
     text-align: justify;
     font-size: 16px;
     line-height: 26px;
-    color:#6B6868;
+    color: #6B6868;
     font-family: 'Montserrat-Regular', sans-serif;
 }
 
-button{
+button {
     background: #64429A;
     font-size: 20px;
     border-radius: 180vw;
 }
 
-.img-fluid{
+.img-fluid {
     padding: 0;
 }
 
@@ -51,7 +53,7 @@ button{
     flex-direction: column;
     justify-content: center;
     width: 100vw;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
@@ -70,7 +72,7 @@ button{
     max-height: 70px;
 }
 
-#banner{
+#banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,17 +83,18 @@ button{
     height: 40vw;*/
 }
 
-#banner-img{
+#banner-img {
     display: flex;
-    justify-content: center;    
-    align-items: center;    
-    background-color:#583188 ;
+    justify-content: center;
+    align-items: center;
+    background-color: #583188;
     width: 100vw;
     height: auto;
     padding: 0;
-    margin:0;
+    margin: 0;
     border: 0;
 }
+
 
 /*
 div#banner.row {    
@@ -114,16 +117,16 @@ div#banner.row {
     align-content: center;
 }
 
-.esquerdo{
+.esquerdo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-color:#583188 ;
+    background-color: #583188;
 }
 
-.direito{
-    background-color:#583188 ;
+.direito {
+    background-color: #583188;
 }
 
 .card-evento {
@@ -134,11 +137,11 @@ div#banner.row {
     color: #ffffff;
 }
 
-.card-evento>h1{
+.card-evento>h1 {
     color: #ffffff;
 }
 
-.card-evento>h4{
+.card-evento>h4 {
     color: #ffffff;
 }
 
@@ -159,9 +162,12 @@ div#banner.row {
 .btn-comprar>button {
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+    width: 180px;
     border-radius: 90vw;
     color: #ffffff;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
 }
 
 .btn-comprar>button:hover {
@@ -174,14 +180,15 @@ div#banner.row {
     align-items: center;
 }
 
-.box-palestrante{    
+.box-palestrante {
     justify-content: center;
     background-color: #F4F4F4;
 }
 
-.grid-palestrante{
+.grid-palestrante {
     display: flex;
     justify-content: center;
+    margin-top: 8vw;
 }
 
 #palestrante>h1 {
@@ -195,34 +202,45 @@ div#banner.row {
     width: 100vw;
 }
 
-.palestrante-item >p{
+.palestrante-item>p {
     font-size: 18px;
     line-height: 26px;
     text-align: center;
     font-family: 'Montserrat-SemiBold', sans-serif;
 }
 
-.palestrante-titulo{
-    margin-top:4vw;
+.palestrante-titulo {
+    margin-top: 4vw;
     justify-self: center;
 }
 
-.palestrante-titulo >h4{
+.palestrante-titulo>h4 {
     color: #6B6868;
     font-size: 22px;
     line-height: 38px;
 }
 
 .palestrante-img {
-    width: 100vw;
     border-radius: 180vw;
+    margin-bottom: 3vw;
+    width: 100%;
 }
 
 #social {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    align-content: center;
     font-size: 40 px;
+}
+
+#redes {
+    text-align: center;
+}
+
+#face-img {
+    width: 77px;
 }
 
 #footer {
